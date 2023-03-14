@@ -7,13 +7,7 @@
 {
    --white:#ffffff;
    --black: #000000;
-   --yellow:#ffff31;
-}
-
-::selection
-{
-   color: white;
-   background-color: rgb(240, 240, 240);
+   --yellow:#f0ff23;
 }
 
 body
@@ -354,7 +348,7 @@ h1,h4,p
   
      #sent1,#sent2,#sent3
      {
-        font-size: 28px;
+        font-size: 24px;
      }
   
      #frontPage
@@ -366,17 +360,22 @@ h1,h4,p
      {
         display: none;
      }
+     
+     #about
+    {
+       padding: 50px 100px 250px 20px;
+    }
 
      #aboutText
      {
-        width: 450px;
+        width: 420px;
         height: 400px;
-        margin-left: -22px;
+        margin-left: -32px;
      }
 
      #work
      {
-        padding-top: 260px;
+        padding-top: 290px;
         padding-bottom: 60px;
      }
 
