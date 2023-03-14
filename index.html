@@ -22,13 +22,15 @@
 <body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" class="light-theme">
   <nav class="navbar navbar-expand-lg fixed-top" style="background-color: var(--footerBg);">
     <a class="navbar-brand ms-5" href="#" style="color: deepskyblue;font-family: 'Inter', sans-serif;">ELENA KARTSAKLI</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" style="color: rgb(183, 147, 255);">
-      <span class="navbar-toggler-icon" style="color: rgb(183, 147, 255);"></span>
+    <button class="navbar-toggler me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" style="color: rgb(183, 147, 255);">
+      <i class="bi bi-list" style="font-size: 30px; color: deepskyblue"></i>
     </button>
-    <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel">
+    <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel" style="background-color: var(--bg);">
       <div class="offcanvas-header">
         <h5 class="offcanvas-title" id="offcanvasNavbarLabel" style="font-family: 'Inter', sans-serif;color: deepskyblue;">ELENA KARTSAKLI</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style="color: rgb(183, 147, 255);"></button>
+        <button type="button" class="btn" data-bs-dismiss="offcanvas" aria-label="Close">
+          <i class="bi bi-x-lg" style="font-size:30px;color: deepskyblue;"></i>
+        </button>
       </div>
       <div class="offcanvas-body">
         <ul class="navbar-nav justify-content-end flex-grow-1 pe-5" style="font-family: 'Inter', sans-serif;">
