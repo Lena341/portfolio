@@ -3,12 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0",minimum-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0">
     <meta name="description" content="Personal website">
     <meta name="author" content="Elena Kartsakli">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -19,10 +18,10 @@
     <title>Elena Kartsakli | Website</title>
     <link rel="icon" type="image" href="img_569349.png"> 
 </head>
-<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50" class="light-theme">
-  <nav class="navbar navbar-expand-lg fixed-top" style="background-color: var(--footerBg);">
-    <a class="navbar-brand ms-5" href="#" style="color: deepskyblue;font-family: 'Inter', sans-serif;">ELENA KARTSAKLI</a>
-    <button class="navbar-toggler me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg" style="color: rgb(183, 147, 255);">
+<body class="light-theme">
+  <nav id="myNavbar" class="navbar navbar-expand-lg fixed-top" style="background-color: var(--footerBg);">
+    <a class="navbar-brand ms-3" href="#" style="color: deepskyblue;font-family: 'Inter', sans-serif;">ELENA KARTSAKLI</a>
+    <button class="navbar-toggler me-3" type="button" data-bs-toggle="offcanvas" data-bs-target="#navbarOffcanvasLg" aria-controls="navbarOffcanvasLg">
       <i class="bi bi-list" style="font-size: 30px; color: deepskyblue"></i>
     </button>
     <div class="offcanvas offcanvas-end" tabindex="-1" id="navbarOffcanvasLg" aria-labelledby="navbarOffcanvasLgLabel" style="background-color: var(--bg);">
@@ -43,11 +42,11 @@
           <li class="nav-item">
             <a class="nav-link me-5" href="#work" style="color: rgb(170, 128, 255);">WORK</a>
           </li>
-          <li class="nav-link" style="padding-top: 0px;">
+          <li class="nav-item">
             <a class="nav-link me-5" href="#contact" style="color: rgb(183, 147, 255);">CONTACT</a>
           </li>
-          <li id="btn" class="nav-link" style="padding-top: 0px;">
-            <a id="btn" class="nav-link me-3" href="#btn">☾</a>
+          <li class="nav-item">
+            <a id="btn" class="nav-link ms-5" href="#btn">☾</a>
           </li>
         </ul>
       </div>
@@ -58,8 +57,8 @@
     <p id="sent1">Hi, I'm Elena.</p>
     <p id="sent2">I like front-end development...</p>
     <p id="sent3">and traveling!</p>
-    <a id="workBtn" type="button" href="#">WORK &nbsp;&nbsp;<i class="bi bi-chevron-down"></i></a>
-    <a id="resumeBtn" type="button" href="#">RESUME &nbsp;&nbsp;<i class="bi bi-chevron-right"></i></a>
+    <a id="workBtn" type="button" href="#work">WORK &nbsp;&nbsp;<i class="bi bi-chevron-down"></i></a>
+    <a id="resumeBtn" type="button" href="https://lena341.github.io/Resume/" target="_blank">RESUME &nbsp;&nbsp;<i class="bi bi-chevron-right"></i></a>
   </div>
 
    <div id="homePageLinks" class="float-start">
@@ -73,7 +72,7 @@
   <div id="myCircle2" class="float-end"></div>
   <div id="myCircle3" class="float-end"></div>
   
-<div id="about" class="container-fluid" style="padding: 140px 100px 150px 20px;">
+<div id="about" data-bs-spy="scroll" data-bs-target="#myNavbar" data-bs-smooth-scroll="true" class="container-fluid" tabindex="0">
   <div id="aboutText">
     <h1>ABOUT ME</h1><br>
     <p style="font-family: 'Nunito', sans-serif;font-size: 17px;">
@@ -88,12 +87,12 @@
       <p class="lead">If you want to know more about my education, experience, skills and hobbies check out my resume 
       <a id="resumeLink" class="text-decoration-none" target="_blank" href="https://lena341.github.io/Resume/">here <i class="bi-box-arrow-up-right" style="font-size: 16px;"></i></a></p>
   </div>
-  <div id="circle4"></div>
-  <div id="circle5"></div>
-  <div id="circle7"></div>
+  <div id="myCircle4"></div>
+  <div id="myCircle5"></div>
+  <div id="myCircle6"></div>
 </div>
 
-<div id="work" class="container-fluid">
+<div id="work" data-bs-spy="scroll" data-bs-target="#myNavbar" data-bs-smooth-scroll="true" class="container-fluid" tabindex="1">
    <h1 id="workTitle" class="text-center">WORK</h1>
    <!-- Swiper -->
   <div class="swiper">
@@ -108,7 +107,7 @@
   </div>
 </div>
 
-<div id="contact" class="container-fluid">
+<div id="contact" data-bs-spy="scroll" data-bs-target="#myNavbar" data-bs-smooth-scroll="true" class="container-fluid" tabindex="2">
   <div id="contactText">
     <h1>CONTACT</h1><br>
     <p>Contact me on LinkedIn or send me your email and I will get back to you as soon as I can!</p>
@@ -123,9 +122,9 @@
 </div>
 
 <footer id="footerBg" class="container-fluid text-center pt-4">
-   <button class="btn btn-light rounded-circle me-5 ms-5 pt-2 pb-2" type="button" onclick="openLinkedIn()"><i class="bi-linkedin"></i></button>
-   <button class="btn btn-light rounded-circle me-5 pt-2 pb-2" type="button" onclick="openGitHub()"><i class="bi-github"></i></button>
-   <button class="btn btn-light rounded-circle pt-2 pb-2" type="button" onclick="openCodepen()"><i class='fa fa-codepen'></i></button>
+   <button class="btn me-5 ms-5 pt-2 pb-2" type="button" onclick="openLinkedIn()" style="color: var(--fontColor);"><i class="bi-linkedin"></i></button>
+   <button class="btn me-5 pt-2 pb-2" type="button" onclick="openGitHub()" style="color: var(--fontColor);"><i class="bi-github"></i></button>
+   <button class="btn pt-2 pb-2" type="button" onclick="openCodepen()" style="color: var(--fontColor);"><i class='fa fa-codepen'></i></button>
    <a class="float-end mb-2 me-3" type="button" onclick="topFunction()"><i class="bi bi-arrow-up-circle-fill" style="font-size: 50px;cursor: pointer;color: deepskyblue"></i></a><br><br><br>
    <p style="font-size:10px;">&copy; 2022-2023 ELENA KARTSAKLI | ALL RIGHTS RESERVED</p>
 </footer>
