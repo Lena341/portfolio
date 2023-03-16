@@ -16,6 +16,7 @@ body
     position: relative;
     overflow-x: hidden;
     display: block;
+    text-overflow: ellipsis;
 }
 
 #btn
@@ -353,15 +354,15 @@ h1,h4,p
   
      #sent1,#sent2,#sent3
      {
-        font-size: 24px;
+        font-size: 26px;
      }
   
      #frontPage
      {
-        margin-top: 230px;
+        margin-top: 210px;
      }
 
-     #homePageLinks,#circle4,#circle5,#circle7
+     #homePageLinks,#myCircle4,#myCircle5,#myCircle6
      {
         display: none;
      }
