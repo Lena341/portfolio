@@ -128,33 +128,8 @@
    <p style="font-size:10px;">&copy; 2022-2023 ELENI KARTSAKLI | ALL RIGHTS RESERVED</p>
 </footer>
 
- <!-- Swiper JS -->
- <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
-
- <!-- Initialize Swiper -->
- <script>
-   var swiper = new Swiper('.swiper', {
-     slidesPerView: 3,
-     direction: getDirection(),
-     navigation: {
-       nextEl: '.swiper-button-next',
-       prevEl: '.swiper-button-prev',
-     },
-     on: {
-       resize: function () {
-         swiper.changeDirection(getDirection());
-       },
-     },
-   });
-
-   function getDirection() {
-     var windowWidth = window.innerWidth;
-     var direction = window.innerWidth <= 760 ? 'vertical' : 'horizontal';
-
-     return direction;
-   }
- </script>
- <script src="app.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+<script src="app.js"></script>
 <noscript>Your browser does not support JavaScript!</noscript>
 </body>
 </html>
