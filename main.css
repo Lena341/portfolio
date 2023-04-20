@@ -50,7 +50,7 @@ h1,h4,p
    color: var(--fontColor);
 }
 
-#myCircle1
+#my-circle1
 {
    border-radius: 50%;
    border: 2px solid deepskyblue;
@@ -60,7 +60,7 @@ h1,h4,p
    margin-right: -100px;
 }
 
-#myCircle2
+#my-circle2
 {
    border-radius: 50%;
    border: 2px solid rgb(154, 104, 255);
@@ -69,7 +69,7 @@ h1,h4,p
    margin-top: -600px;
 }
 
-#myCircle3
+#my-circle3
 {
    border-radius: 50%;
    border: 2px solid rgb(133, 72, 255);
@@ -123,7 +123,7 @@ h1,h4,p
    animation: sentence3 5s steps(50,end) 9s 1 normal forwards;
 }
 
-#workBtn,#resumeBtn
+#work-btn,#resume-btn
 {
    overflow: hidden;
    opacity: 0;
@@ -140,18 +140,18 @@ h1,h4,p
    text-decoration: none;
 }
 
-#workBtn
+#work-btn
 {
    color: rgb(170, 128, 255);
-   animation: homePageButtons 2s steps(20,end) 12s 1 normal forwards;
-   -webkit-animation: homePageButtons 2s steps(20,end) 12s 1 normal forwards;
+   animation: home-page-buttons 2s steps(20,end) 12s 1 normal forwards;
+   -webkit-animation: home-page-buttons 2s steps(20,end) 12s 1 normal forwards;
 }
 
-#resumeBtn
+#resume-btn
 {
    color: deepskyblue;
-   animation: homePageButtons 2s steps(20,end) 13s 1 normal forwards;
-   -webkit-animation: homePageButtons 2s steps(20,end) 13s 1 normal forwards;
+   animation: home-page-buttons 2s steps(20,end) 13s 1 normal forwards;
+   -webkit-animation: home-page-buttons 2s steps(20,end) 13s 1 normal forwards;
 }
 
 @keyframes sentence1
@@ -182,13 +182,13 @@ h1,h4,p
    100% {width:100%; opacity: 1;}
 }
 
-@keyframes homePageButtons
+@keyframes home-page-buttons
 {
    from {opacity: 0;}
    to {opacity: 1;}
 }
 
-#aboutText
+#about-text
 {
    background-color: var(--bg);
    width: 700px;
@@ -200,7 +200,7 @@ h1,h4,p
    padding-bottom: 11px;
 }
 
-#myCircle4
+#my-circle4
 {
    border-radius: 50%;
    border: 2px solid deepskyblue;
@@ -210,7 +210,7 @@ h1,h4,p
    margin-left: -100px;
 }
 
-#myCircle5
+#my-circle5
 {
    border-radius: 50%;
    border: 2px solid rgb(154, 104, 255);
@@ -220,7 +220,7 @@ h1,h4,p
    margin-left: -10px;
 }
 
-#myCircle6
+#my-circle6
 {
    border-radius: 50%;
    border: 2px solid rgb(133, 72, 255);
@@ -245,7 +245,7 @@ h1,h4,p
    padding: 100px 10px 300px 3px;
 }
 
-#contactText
+#contact-text
 {
    background-color: var(--bg);
    width: 670px;
@@ -256,7 +256,7 @@ h1,h4,p
    padding-top: 30px;
 }
 
-#myCircle7
+#my-circle7
 {
    border-radius: 50%;
    border: 2px solid deepskyblue;
@@ -266,7 +266,7 @@ h1,h4,p
    margin-left: 1150px;
 }
 
-#myCircle8
+#my-circle8
 {
    border-radius: 50%;
    border: 2px solid rgb(154, 104, 255);
@@ -276,17 +276,7 @@ h1,h4,p
    margin-left: 1120px;
 }
 
-#myCircle9
-{
-   border-radius: 50%;
-   border: 2px solid rgb(133, 72, 255);
-   width: 250px;
-   height: 250px;
-   margin-top: -150px;
-   margin-left: 1210px;
-}
-
-#footerBg
+#footer-bg
 {
    background-color: var(--footerBg);
    position: absolute;
@@ -297,28 +287,28 @@ h1,h4,p
    height: 155px;
 }
 
-.contactLink
+.contact-link
 {
    color: var(--fontColor);
    text-decoration: none;
 }
 
-.contactLink:hover
+.contact-link:hover
 {
    color: deepskyblue;
 }
 
-#workTitle
+#work-title
 {
    padding-bottom: 50px;
 }
 
-#resumeLink
+#resume-link
 {
    color: var(--fontColor);
 }
 
-#resumeLink:hover
+#resume-link:hover
 {
    color: deepskyblue;
 }
@@ -352,7 +342,7 @@ h1,h4,p
  
  @media only screen and (max-width:600px) 
   {
-     #socialMediaLinks
+     #social-media-links
      {
         display: none;
      }
@@ -362,17 +352,17 @@ h1,h4,p
         font-size: 26px;
      }
   
-     #frontPage
+     #front-page
      {
         margin-top: 210px;
      }
 
-     #homePageLinks,#myCircle2,#myCircle4,#myCircle5,#myCircle6
+     #home-page-links,#my-circle2,#my-circle4,#my-circle5,#my-circle6
      {
         display: none;
      }
 
-     #aboutText
+     #about-text
      {
         width: 420px;
         height: 400px;
@@ -395,7 +385,7 @@ h1,h4,p
         padding-top: 50px;
      }
 
-     #contactText
+     #contact-text
      {
         width:400px;
         height: 450px;
@@ -443,17 +433,17 @@ h1,h4,p
         font-size: 33px;
      }
   
-     #frontPage
+     #front-page
      {
         margin-top: 70px;
      }
 
-     #myCircle4,#myCircle5,#myCircle6
+     #my-circle4,#my-circle5,#my-circle6
      {
         display: none;
      }
 
-     #aboutText
+     #about-text
      {
         width: 450px;
         height: 400px;
@@ -471,7 +461,7 @@ h1,h4,p
         padding-top: 50px;
      }
 
-     #contactText
+     #contact-text
      {
         width:400px;
         height: 450px;
@@ -515,12 +505,12 @@ h1,h4,p
         font-size: 36px;
      }
   
-     #frontPage
+     #front-page
      {
         margin-top: 70px;
      }
 
-     #aboutText
+     #about-text
      {
         width: 600px;
         height: 500px;
@@ -538,7 +528,7 @@ h1,h4,p
         padding-top: 50px;
      }
 
-     #contactText
+     #contact-text
      {
         width:500px;
         height: 580px;
@@ -580,7 +570,7 @@ h1,h4,p
         font-size: 40px;
      }
 
-     #aboutText
+     #about-text
      {
         width: 700px;
         height: 620px;
@@ -598,7 +588,7 @@ h1,h4,p
         padding-top: 50px;
      }
 
-     #contactText
+     #contact-text
      {
         width:670px;
         height: 580px;
@@ -631,7 +621,7 @@ h1,h4,p
   {
      color: var(--pr1Color);
   }
-}
+  }
   
   @media only screen and (min-width:1100px) 
   {
@@ -640,12 +630,12 @@ h1,h4,p
         font-size: 50px;
      }
 
-     #myCircle4,#myCircle5,#myCircle6
+     #my-circle4,#my-circle5,#my-circle6
      {
         display: block;
      }
 
-     #aboutText
+     #about-text
      {
         border: 20px solid;
         border-image-slice: 1;
@@ -656,24 +646,18 @@ h1,h4,p
         margin-left: 350px;
      }
 
-     #myCircle7
+     #my-circle7
      {
         margin-top: -600px;
         margin-left: 900px;
      }
 
-     #myCircle8
+     #my-circle8
      {
         margin-top: -180px;
         margin-left: 790px;
      }
-
-     #myCircle9
-     {
-        margin-top: -100px;
-        margin-left: 980px;
-     }
-
+    
      .swiper 
      {
        width: 100%;
@@ -698,24 +682,18 @@ h1,h4,p
 
   @media only screen and (min-width:1200px) 
   {
-    #myCircle7
+    #my-circle7
    {
       margin-top: -600px;
       margin-left: 1100px;
    }
 
-   #myCircle8
+   #my-circle8
    {
       margin-top: -180px;
       margin-left: 970px;
    }
-
-   #myCircle9
-   {
-      margin-top: -100px;
-      margin-left: 1130px;
-   }
-  }
+}
   
   @media only screen and (min-width:1300px) 
   {
@@ -724,7 +702,7 @@ h1,h4,p
         font-size: 63px;
      }
 
-     #aboutText
+     #about-text
      {
         border: 20px solid;
         border-image-slice: 1;
@@ -732,23 +710,17 @@ h1,h4,p
         margin-left: 540px;
      }
 
-     #myCircle7
+     #my-circle7
      {
         margin-top: -600px;
         margin-left: 1110px;
      }
 
-     #myCircle8
+     #my-circle8
      {
         margin-top: -180px;
         margin-left: 990px;
      }
-
-    #myCircle9
-    {
-       margin-top: -100px;
-       margin-left: 1180px;
-    }
 
      .swiper-slide img
      {
@@ -758,30 +730,24 @@ h1,h4,p
   
   @media only screen and (min-width:1400px) 
   {
-     #aboutText
+     #about-text
      {
         margin-left: 640px;
      }
 
-     #myCircle7
+     #my-circle7
     {
        margin-top: -700px;
        margin-left: 1150px;
     }
 
-    #myCircle8
+    #my-circle8
    {
       margin-top: -180px;
       margin-left: 1120px;
    }
    
-   #myCircle9
-   {
-     margin-top: -150px;
-     margin-left: 1210px;
-   }
-    
-    #work
+   #work
     {
       padding: 50px 30px 130px 10px;
     }
