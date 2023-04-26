@@ -29,7 +29,7 @@ function topFunction()
 
 function openLinkedIn()
 {
-   window.open('https://www.linkedin.com/in/elena-k-a1a1911b7/');
+   window.open('https://www.linkedin.com/in/elena-kartsakli/');
 }
 
 function openGitHub()
