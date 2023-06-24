@@ -1,0 +1,20 @@
+body
+{
+    background-image: radial-gradient(farthest-corner circle at 60% 43%, rgb(33, 33, 33),rgb(45, 45, 45), rgb(12, 12, 12),black);
+    overflow-y: scroll;
+    color: white;
+    height: 100%;
+}
+
+#home-page
+{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 800px;
+}
+
+#work h2
+{
+    padding-bottom: 40px;
+}
+
